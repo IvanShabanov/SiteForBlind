@@ -1,0 +1,40 @@
+.blindpanel {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    height: auto;
+    width: 338px;
+    padding: 5px;
+    margin: 0px;
+    margin-left: 130px;
+/*    background: url(/img/bg-top-header.jpg) repeat-x; */
+    height: 20px;
+    border: 1px solid #AFB9B1;
+    border-radius: 0 0 15px 15px;
+    
+}
+
+.toblind{
+  margin: 0px;
+  display: block;
+  background: url(/blind/blindB.png) no-repeat; 
+  background-position: left; 
+  padding: 0px 2px 2px 50px;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  overflow: hidden;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: -1px;
+}
+
+
+.forblind{
+  display: none;
+}
+
+div.header-top {
+    margin-bottom: 35px;
+}

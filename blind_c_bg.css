@@ -1,0 +1,26 @@
+﻿/*Текст на руссском */
+*:not(ymaps):not([id*="fancy"]):not([class*="blind"]){
+  background: #afa !important;
+  color: #440 !important;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+  background: #555 !important;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+  background: #ccc !important;
+  color: #000 !important;
+}
+
+a:not([id*="fancy"]){
+  background: #afa !important;
+  color: #440 !important;
+}
+a:hover:not([id*="fancy"]){
+  background: #440 !important;
+  color: #afa !important;
+}

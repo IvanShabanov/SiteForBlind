@@ -1,0 +1,9 @@
+﻿/*Текст на руссском  */
+img{
+  display: none;
+}
+.imageHide {
+  background: url(/blind/camera_off.png) center no-repeat !important;
+  width: 50px;
+  height: 35px;
+}
