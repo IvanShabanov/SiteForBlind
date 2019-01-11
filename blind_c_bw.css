@@ -1,28 +1,27 @@
-﻿/*Текст на руссском */
-*:not(ymaps):not([id*="fancy"]):not([class*="blind"]) {
-  background: #fff !important;
-  color: #000 !important;
-}
-button,
-input[type="button"],
-input[type="submit"] {
-  background: #aaa !important;
+﻿*:not(ymaps):not([id*="fancy"]):not([class*="blind"]) {
+    background: #fff !important;
+    color: #000 !important;
 }
 
-button:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover {
-  background: #333 !important;
-  color: #fff !important;
+button, input[type="button"], input[type="submit"] {
+    background: #aaa !important;
 }
 
-a:not([id*="fancy"]){
-  background: #fff !important;
-  color: #000 !important;
-}
-a:hover:not([id*="fancy"]){
-  background: #000 !important;
-  color: #fff !important;
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background: #333 !important;
+    color: #fff !important;
 }
 
+a:not([id*="fancy"]) {
+    background: #fff !important;
+    color: #000 !important;
+}
 
+a:hover:not([id*="fancy"]) {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.staff_entry a.overlaylink, .staff_entry a.overlaylink:hover {
+    background: transparent !important;
+}

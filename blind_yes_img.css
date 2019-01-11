@@ -1,8 +1,9 @@
 ﻿/*Текст на руссском */
-img{
-}
+
+img {}
+
 .imageHide {
-  background: url(/blind/camera.png) center no-repeat !important;
-  width: 50px;
-  height: 35px;
-} 
+    background: url(/blind/camera.png) center no-repeat !important;
+    width: 50px;
+    height: 35px;
+}

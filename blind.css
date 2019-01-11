@@ -1,346 +1,104 @@
-/*Текст на руссском */
-html, 
-body {
-  font-family: sans-serif !important;
-  font-size: 20px !important;
+/* 
+******************************
+Здесь описываем стили отображения для 
+элементов в режиме для слабовидящих.
+
+!!! НЕ пишите здесь стили в которых используются color, background, font. 
+Они переключаются пользователем и описаны в других файлах.
+Если надо их описать используйте файл blind-after.css
+
+******************************
+*/
+
+html, body {
+    font-family: sans-serif !important;
+    font-size: 20px !important;
 }
 
-*{
-  box-sizing: border-box;
-  font-size: 1rem !important;
-  font-family: inherit !important;
-  line-height: 1.4em !important;
+* {
+    font-size: 1rem !important;
+    font-family: inherit !important;
+    line-height: 1.4em !important;
 }
+
 h1 {
-  font-size: 2rem !important;
+    font-size: 2rem !important;
 }
+
 h2 {
-  font-size: 1.8rem !important;
+    font-size: 1.8rem !important;
 }
+
 h3 {
-  font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
 }
+
 h4 {
-  font-size: 1.3rem !important;
+    font-size: 1.3rem !important;
 }
+
 h5 {
-  font-size: 1.2rem !important;
+    font-size: 1.2rem !important;
 }
+
 h6 {
-  font-size: 1.1rem !important;
+    font-size: 1.1rem !important;
 }
+
 input, textarea, select {
-  border: 1px solid #888 !important;
-  min-height: 30px !important;
-  padding: 5px;
-  width: 100%;
-  margin: 2px;
-}
-input[type="radio"],
-input[type="checkbox"] {
-  width: 20px;
-  height: 20px;
+    border: 1px solid #888 !important;
+    min-height: 30px !important;
+    padding: 5px;
+    width: 100%;
+    margin: 2px;
 }
 
-button,
-input[type="button"],
-input[type="submit"] {
-  min-height: 30px !important;
-  padding: 5px;
-  width: 100%;
-  text-align: center !important;
-  cursor: pointer !important;
+input[type="radio"], input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
 }
 
-button:hover,
-input[type="button"]:hover,
-input[type="submit"]:hover {
+button, input[type="button"], input[type="submit"] {
+    min-height: 30px !important;
+    padding: 5px;
+    width: 100%;
+    text-align: center !important;
+    cursor: pointer !important;
 }
 
-a{
-  display: inline-block !important;
-  text-decoration: underline;
-  cursor: pointer;
-}
-a:hover{
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {}
+
+a {
+    display: inline-block !important;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
-a:hover{
-  text-decoration: none;
+a:hover {}
+
+a:hover {
+    text-decoration: none;
 }
+
 td {
     padding: 2px;
 }
-forstandart {
-  display: none !important;
+
+.forstandart {
+    display: none !important;
 }
+
 .toblind {
-  display: none !important;
-
+    display: none !important;
 }
+
 .forblind {
-  display: inline-block;
-
-}
-.deliver {
- display: block !important;
- float: left;
- width: 1px;
- margin: 0 10px;
- height: 30px;
- border-left: 1px solid #555;
- 
-}
-.tostandart{
-  display: block !important;
-  height: 30px;
-  float: left;
-  font-size: 20px !important;
-  padding: 6px;
-}
-.smallfont,
-.normalfont,
-.bigfont {
- display: block !important;
- float: left;
- height: 30px;
- width: 30px;
- font-size: 16px !important;
- text-align: center;
- padding: 10px;
-}
-.normalfont {
- font-size: 20px !important;
- padding: 6px;
-}
-.bigfont {
- font-size: 24px !important;
- padding: 2px; 
-}
-.colorBlackWhite,
-.colorWhiteBlack,
-.colorBrownGreen ,
-.colorBlues ,
-.colorYellowBlue ,
-.colorBlueYellow{
- background: #fff !important;
- color: #000 !important; 
- display: block !important;
- float: left;
- height: 30px;
- width: 30px;
- font-size: 20px !important;
- padding: 0px;
- border:2px solid black;
- border-radius: 50%;
- text-decoration: none;
- text-align: center;
- margin: 0 2px;
-}
-.colorWhiteBlack{
- background: #000 !important;
- color: #fff !important;
-}
-
-.colorBrownGreen {
- background: #afa !important;
- color: #440 !important;
-}
-.colorBlues{
- background: #aaf !important;
- color: #004 !important;
-}
-
-.colorYellowBlue{
- background: #00f !important;
- color: #ff0 !important;
-}
-.colorBlueYellow{
- background: #ff0 !important;
- color: #00f !important;
-}
-
-.colorBlackWhite:hover,
-.colorWhiteBlack:hover,
-.colorBrownGreen:hover ,
-.colorBlues:hover ,
-.colorYellowBlue:hover ,
-.colorBlueYellow:hover{
- background: inherit;
- border: 4px solid black;
-}
-
-/****************************************/
-/****************************************/
-/****************************************/
-/****************************************/
-/* Для Загса */
-.parnters,
-nav.nav-top > ul > li:first-child img ,
-.header-bred,
-.nav-mini,
-#left-angle,
-#right-angle,
-ul.popup-menu,
-.pressed_L,
-.pressed_R,
-span.border,
-.wrapper_search {
-  display: none !important;
-}
-header {
-  margin-top: 50px;
-}
-div.header-top {
-  text-align: center;
-  padding-top: 15px;
-}
-.header-top:before{
-  content:"Управление ЗАГС Кемеровской области";
-  font-size: 32px;
-  text-align: center;
-  width: 100%;
-  margin-top: 20px;
-  
-}
-nav.nav-top {
-  height: auto; 
-  margin-top: 25px;
-}
-nav.nav-top > ul > li {
-  display: inline-block;
-  padding: 0px !important;
-  height: auto;
-}
-
-nav.nav-top > ul > li a {
-    width: 100%;
-    height: 100%;
-    padding: 10px 17px;
-}
-
-
-nav.nav-top > ul > li:first-child {
-  width: auto;
-  height: auto;
-}
-
-nav.nav-top > ul > li:first-child a:after{
-  content: "Главная";
-      margin-left: -5px;
-}
-
-nav.nav-top:after{
-  content: " ";
-  clear: both;
-  display: table;
-  width: 100%;
-  border-bottom: 2px solid #888888;
-}
-menu li{
-  margin: 0px;
-}
-menu.in-menu > li {
-  margin: 0px;
-  min-height: 35px;
-}
-menu.in-menu {
-  border: 1px solid #888888;
-/*  border-radius: 0px;*/
-/*    margin-bottom: 20px; */
-  margin: 0 0 20px 20px;
-}
-menu.in-menu li a{ 
-    width: 100%;
-    height: 100%;
-    padding: 10px 17px;
-}
-#left-col {
-  width: auto;
-}
-#in-left {
-  margin: 0px;
-}
-#in-right {
-  /*  display: inline; */
-/*  padding-left: 0px;
-  max-width: 940px;
-  */
-}    
-#in-right ul li {
-    text-indent: 0px;
-    padding-left: 0px;
-    overflow: auto; 
-    margin: 0px;
-    list-style: none;
-}
-
-#in-right ul li a {
-  padding: 10px;
-}
-#in-right ol li a {
-  display: inline !important;
-}
-div.select-cat {
-    display: inline-block;
-}    
-
-dl.image_map {
     display: inline-block;
 }
-dl.image_map a {
-  padding: 0px;
-  height: auto;
-  text-align: center;
-  overflow: auto;
-  font-size: 16px !important;
-}
-h1 {
-  width: 100%;
-  border-bottom: 1px solid #888888;
-}
-div.mod-gallery-menu a {
-  width: 100%;
-  padding: 10px;
-  margin: 0px;
-  height: 34px;
-}
-article.left-news {
-  width: 100%;
-}
-span.news-block-advanced  {
-    display: inline-block;
-    margin: 0 0 20px;
-}
-span.news-block-advanced span  {
-    top: 0px;
-}
-article.left-news article.item-news {
-    overflow: hidden;
-    margin-bottom: 35px;
-    margin-left: 10px;
-    width: 100%;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: top;
-}
-#in-right div {
-/*  display: inline;  */
-}
-/*.chain {
-   display: block;
-   margin: -15px 0 25px;
-   padding: 0 0 25px 0;
-}*/
-nav.nav-top li {
-  border: 1px solid transparent;
-}
 
-nav.nav-top li.active {
-  border: 1px solid #888888;
-}
-
-td {
-  margin: 0px;
-  border: 1px solid #888888;
+.tostandart {
+    display: block !important;
+    height: 30px;
+    font-size: 20px !important;
+    padding: 6px;
 }

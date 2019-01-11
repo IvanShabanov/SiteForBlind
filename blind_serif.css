@@ -1,6 +1,5 @@
 ﻿/*Текст на руссском */
-html, 
-body {
-  font-family: serif !important;
+
+html, body, * {
+    font-family: serif !important;
 }
- 
